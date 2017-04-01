@@ -15,6 +15,7 @@ function ParadoxSecuritySystemAccessory(log, config) {
     this.statetopic = config["statetopic"];
     this.armevent = config["armevent"];
     this.stayevent = config["stayevent"];
+    this.sleepevent = config["sleepevent"];
     this.disarmevent = config["disarmevent"];
     this.triggeredevent = config["triggeredevent"];
 
